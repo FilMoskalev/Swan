@@ -53,7 +53,7 @@ namespace Swan.Controllers
         public ActionResult Create()
         {
             ViewBag.Vacancy = new SelectList(_db.Vacancies, "Id", "Position");
-            return View("Edit", _db.Candidate.Create());
+            return View("Edit", new Candidate());
         }
 
         [HttpPost]

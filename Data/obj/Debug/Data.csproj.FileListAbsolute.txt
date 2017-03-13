@@ -54,7 +54,6 @@ E:\MyProjects\Swan\Data\obj\Debug\Data.Migrations.AddFieldsValidation2.resources
 E:\MyProjects\Swan\Data\obj\Debug\Data.Migrations.AddFieldsValidation3.resources
 E:\MyProjects\Swan\Data\obj\Debug\Data.Migrations.AddRequiredFields.resources
 E:\MyProjects\Swan\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
-D:\coding\Swan\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
 D:\coding\Swan\Data\obj\Debug\Data.Migrations.AddRequiredFields.resources
 C:\Users\Philipp\Documents\GitHub\Swan\Data\bin\Debug\Data.dll.config
 C:\Users\Philipp\Documents\GitHub\Swan\Data\bin\Debug\Data.dll
@@ -78,3 +77,4 @@ C:\Users\Philipp\Documents\GitHub\Swan\Data\obj\Debug\Data.csproj.GenerateResour
 C:\Users\Philipp\Documents\GitHub\Swan\Data\obj\Debug\Data.dll
 C:\Users\Philipp\Documents\GitHub\Swan\Data\obj\Debug\Data.pdb
 C:\Users\Philipp\Documents\GitHub\Swan\Data\obj\Debug\Data.Migrations.ChangeRequirements.resources
+D:\coding\Swan\Data\obj\Debug\Data.Migrations.ChangeRequirements.resources
