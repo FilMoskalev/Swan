@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5ccbed1c-5fcf-4ddb-8b43-61d4917982e5" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AccountCotroller.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Swan/Controllers/AccountCotroller.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+              <folding>
+                <marker date="1489142250089" expanded="true" signature="6:143" ph="..." />
+                <marker date="1489142250089" expanded="true" signature="172:2123" ph="{...}" />
+                <marker date="1489142250089" expanded="true" signature="243:2121" ph="{...}" />
+                <marker date="1489142250089" expanded="true" signature="285:358" ph="{...}" />
+                <marker date="1489142250089" expanded="true" signature="448:1188" ph="{...}" />
+                <marker date="1489142250089" expanded="true" signature="494:1146" ph="{...}" />
+                <marker date="1489142250089" expanded="true" signature="585:992" ph="{...}" />
+                <marker date="1489142250089" expanded="true" signature="743:839" ph="{...}" />
+                <marker date="1489142250089" expanded="true" signature="864:974" ph="{...}" />
+                <marker date="1489142250089" expanded="true" signature="1013:1132" ph="{...}" />
+                <marker date="1489142250089" expanded="true" signature="1225:1346" ph="{...}" />
+                <marker date="1489142250089" expanded="true" signature="1386:1433" ph="{...}" />
+                <marker date="1489142250089" expanded="true" signature="1511:2115" ph="{...}" />
+                <marker date="1489142250089" expanded="true" signature="1557:2073" ph="{...}" />
+                <marker date="1489142250089" expanded="true" signature="1753:1926" ph="{...}" />
+                <marker date="1489142250089" expanded="true" signature="1947:2059" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CandidatesController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Swan/Controllers/CandidatesController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+              <folding>
+                <marker date="1489136672176" expanded="true" signature="6:124" ph="..." />
+                <marker date="1489136672176" expanded="true" signature="152:4096" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="221:4094" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="350:419" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="489:810" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="645:736" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="751:800" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="893:1241" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="931:1035" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="1128:1195" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="1313:1390" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="1532:2668" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="1578:2613" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="1625:1864" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="1910:1988" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="2007:2499" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="2058:2342" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="2363:2468" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="2745:3093" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="2783:2887" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="2980:3047" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="3174:3522" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="3212:3316" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="3409:3476" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="3688:3888" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="3945:4088" ph="{...}" />
+                <marker date="1489136672176" expanded="true" signature="3982:4041" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_Layout.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Swan/Views/Shared/_Layout.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="776">
+              <caret line="52" column="4" lean-forward="false" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+              <folding>
+                <marker date="1489142602470" expanded="true" signature="16:2263" ph="&lt;html.../&gt;" />
+                <marker date="1489142602470" expanded="true" signature="23:456" ph="&lt;head.../&gt;" />
+                <marker date="1489142602470" expanded="true" signature="457:2255" ph="&lt;body.../&gt;" />
+                <marker date="1489142602470" expanded="true" signature="468:2000" ph="&lt;div.../&gt;" />
+                <marker date="1489142602470" expanded="true" signature="529:1989" ph="&lt;div.../&gt;" />
+                <marker date="1489142602470" expanded="true" signature="565:1015" ph="&lt;div.../&gt;" />
+                <marker date="1489142602470" expanded="true" signature="609:886" ph="&lt;button.../&gt;" />
+                <marker date="1489142602470" expanded="true" signature="1028:1974" ph="&lt;div.../&gt;" />
+                <marker date="1489142602470" expanded="true" signature="1083:1445" ph="&lt;ul.../&gt;" />
+                <marker date="1489142602470" expanded="true" signature="1462:1955" ph="&lt;ul.../&gt;" />
+                <marker date="1489142602470" expanded="true" signature="1523:1932" ph="@..." />
+                <marker date="1489142602470" expanded="true" signature="1552:1784" ph="{...}" />
+                <marker date="1489142602470" expanded="true" signature="1809:1932" ph="{...}" />
+                <marker date="1489142602470" expanded="true" signature="2005:2247" ph="&lt;div.../&gt;" />
+                <marker date="1489142602470" expanded="true" signature="2113:2236" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Swan/Views/Account/Login.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <marker date="1489142081033" expanded="true" signature="30:64" ph="@..." />
+                <marker date="1489142081033" expanded="true" signature="102:1428" ph="@..." />
+                <marker date="1489142081033" expanded="true" signature="128:1428" ph="{...}" />
+                <marker date="1489142081033" expanded="true" signature="201:1425" ph="&lt;div.../&gt;" />
+                <marker date="1489142081033" expanded="true" signature="253:593" ph="&lt;div.../&gt;" />
+                <marker date="1489142081033" expanded="true" signature="381:578" ph="&lt;div.../&gt;" />
+                <marker date="1489142081033" expanded="true" signature="603:960" ph="&lt;div.../&gt;" />
+                <marker date="1489142081033" expanded="true" signature="731:945" ph="&lt;div.../&gt;" />
+                <marker date="1489142081033" expanded="true" signature="970:1216" ph="&lt;div.../&gt;" />
+                <marker date="1489142081033" expanded="true" signature="1100:1201" ph="&lt;div.../&gt;" />
+                <marker date="1489142081033" expanded="true" signature="1226:1414" ph="&lt;div.../&gt;" />
+                <marker date="1489142081033" expanded="true" signature="1263:1399" ph="&lt;div.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Web.config" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Swan/Web.config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="44" column="50" lean-forward="false" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomRoleProvider.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Swan/Providers/CustomRoleProvider.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+              <folding>
+                <marker date="1489143624525" expanded="true" signature="6:81" ph="..." />
+                <marker date="1489143624525" expanded="true" signature="107:3742" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="160:3740" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="229:1139" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="346:1104" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="380:987" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="650:969" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="828:947" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="1026:1090" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="1196:1394" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="1470:2465" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="1616:2422" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="1650:2308" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="1923:2290" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="2167:2268" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="2347:2408" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="2550:2619" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="2667:2881" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="2693:2774" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="2790:2871" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="2966:3035" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="3126:3195" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="3243:3312" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="3378:3447" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="3538:3607" ph="{...}" />
+                <marker date="1489143624525" expanded="true" signature="3665:3734" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Register.cshtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Swan/Views/Account/Register.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+              <folding>
+                <marker date="1489136381967" expanded="true" signature="34:73" ph="@..." />
+                <marker date="1489136381967" expanded="true" signature="97:1141" ph="@..." />
+                <marker date="1489136381967" expanded="true" signature="123:1141" ph="{...}" />
+                <marker date="1489136381967" expanded="true" signature="164:1139" ph="&lt;fieldset.../&gt;" />
+                <marker date="1489136381967" expanded="true" signature="224:314" ph="&lt;div.../&gt;" />
+                <marker date="1489136381967" expanded="true" signature="323:475" ph="&lt;div.../&gt;" />
+                <marker date="1489136381967" expanded="true" signature="485:578" ph="&lt;div.../&gt;" />
+                <marker date="1489136381967" expanded="true" signature="587:745" ph="&lt;div.../&gt;" />
+                <marker date="1489136381967" expanded="true" signature="755:855" ph="&lt;div.../&gt;" />
+                <marker date="1489136381967" expanded="true" signature="864:1036" ph="&lt;div.../&gt;" />
+                <marker date="1489136381967" expanded="true" signature="1046:1123" ph="&lt;p.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogOnModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Swan/Models/LogOnModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+              <folding>
+                <marker date="1489141689807" expanded="true" signature="67:435" ph="{...}" />
+                <marker date="1489141689807" expanded="true" signature="97:433" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Swan/Models/RegisterModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding>
+                <marker date="1489136365511" expanded="true" signature="67:609" ph="{...}" />
+                <marker date="1489136365511" expanded="true" signature="100:607" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Data/DataModel/Candidate.cs" />
+        <option value="$PROJECT_DIR$/Data/DataModel/SwanDbEntities.cs" />
+        <option value="$PROJECT_DIR$/Swan/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/Swan/Providers/CustomMembershipProvider.cs" />
+        <option value="$PROJECT_DIR$/Swan/Controllers/AccountCotroller.cs" />
+        <option value="$PROJECT_DIR$/Swan/Models/RegisterModel.cs" />
+        <option value="$PROJECT_DIR$/Swan/Views/Account/Register.cshtml" />
+        <option value="$PROJECT_DIR$/Swan/Controllers/CandidatesController.cs" />
+        <option value="$PROJECT_DIR$/Swan/Models/LogOnModel.cs" />
+        <option value="$PROJECT_DIR$/Swan/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Swan/Views/Account/Login.cshtml" />
+        <option value="$PROJECT_DIR$/Swan/Web.config" />
+        <option value="$PROJECT_DIR$/Swan/Providers/CustomRoleProvider.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="151" />
+    <option name="y" value="73" />
+    <option name="width" value="1454" />
+    <option name="height" value="1152" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Swan (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Swan" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Swan (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Swan" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Swan (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Swan" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shared" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Swan (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Swan" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Providers" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Swan (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Swan" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Models" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Swan (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Swan" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Swan (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Data (with warnings)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration default="true" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_KIND" value="None" />
+      <option name="PROJECT_TFM" value="" />
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+    </list>
+  </component>
+  <component name="RuntimeDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5ccbed1c-5fcf-4ddb-8b43-61d4917982e5" name="Default" comment="" />
+      <created>1488294575851</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1488294575851</updated>
+      <workItem from="1488294578051" duration="1147000" />
+      <workItem from="1489133762265" duration="7155000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="8302000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="151" y="73" width="1454" height="1152" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20375521" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917467" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Data/DataModel/SwanDbEntities.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/DataModel/Candidate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/DataModel/Candidate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/DataModel/SwanDbEntities.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swan/Providers/CustomMembershipProvider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="82" lean-forward="false" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
+          <folding>
+            <marker date="1489134484397" expanded="true" signature="6:107" ph="..." />
+            <marker date="1489134484397" expanded="true" signature="133:6887" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="198:6885" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="280:865" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="386:827" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="420:718" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="616:700" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="757:813" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="938:1950" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="1056:1915" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="1090:1810" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="1177:1792" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="1475:1572" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="1849:1901" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="2031:2894" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="2057:2784" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="2136:2770" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="2345:2752" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="2815:2859" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="2942:3156" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="2968:3049" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="3065:3146" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="3258:3327" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="3477:3546" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="3769:3838" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="3923:3992" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="4042:4119" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="4172:4249" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="4387:4456" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="4596:4665" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="4777:4846" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="4899:4968" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="5043:5112" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="5202:5271" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="5335:5404" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="5459:5536" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="5601:5678" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="5732:5809" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="5859:5936" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="6000:6077" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="6142:6219" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="6274:6351" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="6400:6477" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="6554:6623" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="6680:6749" ph="{...}" />
+            <marker date="1489134484397" expanded="true" signature="6810:6879" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swan/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <marker date="1489134037536" expanded="true" signature="49:485" ph="{...}" />
+            <marker date="1489134037536" expanded="true" signature="96:483" ph="{...}" />
+            <marker date="1489134037536" expanded="true" signature="138:185" ph="{...}" />
+            <marker date="1489134037536" expanded="true" signature="222:338" ph="{...}" />
+            <marker date="1489134037536" expanded="true" signature="377:477" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swan/Views/_ViewStart.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1488284892000" expanded="true" signature="0:50" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swan/Views/Account/Register.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+          <folding>
+            <marker date="1489136381967" expanded="true" signature="34:73" ph="@..." />
+            <marker date="1489136381967" expanded="true" signature="97:1141" ph="@..." />
+            <marker date="1489136381967" expanded="true" signature="123:1141" ph="{...}" />
+            <marker date="1489136381967" expanded="true" signature="164:1139" ph="&lt;fieldset.../&gt;" />
+            <marker date="1489136381967" expanded="true" signature="224:314" ph="&lt;div.../&gt;" />
+            <marker date="1489136381967" expanded="true" signature="323:475" ph="&lt;div.../&gt;" />
+            <marker date="1489136381967" expanded="true" signature="485:578" ph="&lt;div.../&gt;" />
+            <marker date="1489136381967" expanded="true" signature="587:745" ph="&lt;div.../&gt;" />
+            <marker date="1489136381967" expanded="true" signature="755:855" ph="&lt;div.../&gt;" />
+            <marker date="1489136381967" expanded="true" signature="864:1036" ph="&lt;div.../&gt;" />
+            <marker date="1489136381967" expanded="true" signature="1046:1123" ph="&lt;p.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swan/Models/RegisterModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <marker date="1489136365511" expanded="true" signature="67:609" ph="{...}" />
+            <marker date="1489136365511" expanded="true" signature="100:607" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swan/Models/LogOnModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding>
+            <marker date="1489141689807" expanded="true" signature="67:435" ph="{...}" />
+            <marker date="1489141689807" expanded="true" signature="97:433" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swan/Controllers/CandidatesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="9" lean-forward="false" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+          <folding>
+            <marker date="1489136672176" expanded="true" signature="6:124" ph="..." />
+            <marker date="1489136672176" expanded="true" signature="152:4096" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="221:4094" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="350:419" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="489:810" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="645:736" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="751:800" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="893:1241" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="931:1035" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="1128:1195" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="1313:1390" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="1532:2668" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="1578:2613" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="1625:1864" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="1910:1988" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="2007:2499" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="2058:2342" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="2363:2468" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="2745:3093" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="2783:2887" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="2980:3047" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="3174:3522" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="3212:3316" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="3409:3476" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="3688:3888" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="3945:4088" ph="{...}" />
+            <marker date="1489136672176" expanded="true" signature="3982:4041" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swan/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="52" column="4" lean-forward="false" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+          <folding>
+            <marker date="1489142602470" expanded="true" signature="16:2263" ph="&lt;html.../&gt;" />
+            <marker date="1489142602470" expanded="true" signature="23:456" ph="&lt;head.../&gt;" />
+            <marker date="1489142602470" expanded="true" signature="457:2255" ph="&lt;body.../&gt;" />
+            <marker date="1489142602470" expanded="true" signature="468:2000" ph="&lt;div.../&gt;" />
+            <marker date="1489142602470" expanded="true" signature="529:1989" ph="&lt;div.../&gt;" />
+            <marker date="1489142602470" expanded="true" signature="565:1015" ph="&lt;div.../&gt;" />
+            <marker date="1489142602470" expanded="true" signature="609:886" ph="&lt;button.../&gt;" />
+            <marker date="1489142602470" expanded="true" signature="1028:1974" ph="&lt;div.../&gt;" />
+            <marker date="1489142602470" expanded="true" signature="1083:1445" ph="&lt;ul.../&gt;" />
+            <marker date="1489142602470" expanded="true" signature="1462:1955" ph="&lt;ul.../&gt;" />
+            <marker date="1489142602470" expanded="true" signature="1523:1932" ph="@..." />
+            <marker date="1489142602470" expanded="true" signature="1552:1784" ph="{...}" />
+            <marker date="1489142602470" expanded="true" signature="1809:1932" ph="{...}" />
+            <marker date="1489142602470" expanded="true" signature="2005:2247" ph="&lt;div.../&gt;" />
+            <marker date="1489142602470" expanded="true" signature="2113:2236" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swan/Controllers/AccountCotroller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="56" column="43" lean-forward="false" selection-start-line="56" selection-start-column="43" selection-end-line="56" selection-end-column="43" />
+          <folding>
+            <marker date="1489142250089" expanded="true" signature="6:143" ph="..." />
+            <marker date="1489142250089" expanded="true" signature="172:2123" ph="{...}" />
+            <marker date="1489142250089" expanded="true" signature="243:2121" ph="{...}" />
+            <marker date="1489142250089" expanded="true" signature="285:358" ph="{...}" />
+            <marker date="1489142250089" expanded="true" signature="448:1188" ph="{...}" />
+            <marker date="1489142250089" expanded="true" signature="494:1146" ph="{...}" />
+            <marker date="1489142250089" expanded="true" signature="585:992" ph="{...}" />
+            <marker date="1489142250089" expanded="true" signature="743:839" ph="{...}" />
+            <marker date="1489142250089" expanded="true" signature="864:974" ph="{...}" />
+            <marker date="1489142250089" expanded="true" signature="1013:1132" ph="{...}" />
+            <marker date="1489142250089" expanded="true" signature="1225:1346" ph="{...}" />
+            <marker date="1489142250089" expanded="true" signature="1386:1433" ph="{...}" />
+            <marker date="1489142250089" expanded="true" signature="1511:2115" ph="{...}" />
+            <marker date="1489142250089" expanded="true" signature="1557:2073" ph="{...}" />
+            <marker date="1489142250089" expanded="true" signature="1753:1926" ph="{...}" />
+            <marker date="1489142250089" expanded="true" signature="1947:2059" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swan/Views/Account/Login.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1489142081033" expanded="true" signature="30:64" ph="@..." />
+            <marker date="1489142081033" expanded="true" signature="102:1428" ph="@..." />
+            <marker date="1489142081033" expanded="true" signature="128:1428" ph="{...}" />
+            <marker date="1489142081033" expanded="true" signature="201:1425" ph="&lt;div.../&gt;" />
+            <marker date="1489142081033" expanded="true" signature="253:593" ph="&lt;div.../&gt;" />
+            <marker date="1489142081033" expanded="true" signature="381:578" ph="&lt;div.../&gt;" />
+            <marker date="1489142081033" expanded="true" signature="603:960" ph="&lt;div.../&gt;" />
+            <marker date="1489142081033" expanded="true" signature="731:945" ph="&lt;div.../&gt;" />
+            <marker date="1489142081033" expanded="true" signature="970:1216" ph="&lt;div.../&gt;" />
+            <marker date="1489142081033" expanded="true" signature="1100:1201" ph="&lt;div.../&gt;" />
+            <marker date="1489142081033" expanded="true" signature="1226:1414" ph="&lt;div.../&gt;" />
+            <marker date="1489142081033" expanded="true" signature="1263:1399" ph="&lt;div.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swan/Providers/CustomRoleProvider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <marker date="1489143624525" expanded="true" signature="6:81" ph="..." />
+            <marker date="1489143624525" expanded="true" signature="107:3742" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="160:3740" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="229:1139" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="346:1104" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="380:987" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="650:969" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="828:947" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="1026:1090" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="1196:1394" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="1470:2465" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="1616:2422" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="1650:2308" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="1923:2290" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="2167:2268" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="2347:2408" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="2550:2619" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="2667:2881" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="2693:2774" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="2790:2871" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="2966:3035" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="3126:3195" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="3243:3312" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="3378:3447" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="3538:3607" ph="{...}" />
+            <marker date="1489143624525" expanded="true" signature="3665:3734" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swan/Web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="44" column="50" lean-forward="false" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

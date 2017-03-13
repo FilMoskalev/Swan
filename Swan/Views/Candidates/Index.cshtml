@@ -1,0 +1,102 @@
+﻿@model IEnumerable<Data.DataModel.Candidate>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+      <th>
+        @Html.DisplayNameFor(model => model.Photo)
+      </th>
+      <th>
+        @Html.DisplayNameFor(model => model.Name)
+      </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContactPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContactEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ContactSkype)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.EnglishLevels)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Vacancy)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CurrentCompany)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CurrentPosition)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+          <img class="img-thumbnail" width="150" height="150"
+               src="@Url.Action("GetPhotoCandidates", "Candidates",
+                        new { item.CandidateId })" />
+        </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.Name)
+      </td>
+      <td>
+        @Html.DisplayFor(modelItem => item.Gender)
+      </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateOfBirth)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContactPhone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContactEmail)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ContactSkype)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EnglishLevels)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Vacancy)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CurrentCompany)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CurrentPosition)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Status)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CandidateId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CandidateId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CandidateId })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,202 @@
+﻿@model Data.DataModel.Candidate
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3 class="text-danger">Are you sure you want to delete this?</h3>
+<div class="well">
+    <h4>Candidate</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Photo)
+        </dt>
+
+        <dd>
+          <img class="img-thumbnail" id="blah" width="250" height="250"
+               src="@Url.Action("GetPhotoCandidates", "Candidates",
+                        new {Model.CandidateId})" />
+        </dd>
+
+      <dt>
+        @Html.DisplayNameFor(model => model.Name)
+      </dt>
+
+      <dd>
+        @Html.DisplayFor(model => model.Name)
+      </dd>
+
+      <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfBirth)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactSkype)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactSkype)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactLinkedIn)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactLinkedIn)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactFacebook)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactFacebook)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactGoogle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactGoogle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactGit)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactGit)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactHomePage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactHomePage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EnglishLevels)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EnglishLevels)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Source)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Source)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vacancy)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vacancy)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Attachments)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Attachments)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Notes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Notes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Education)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Education)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrentCompany)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrentCompany)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrentPosition)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrentPosition)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

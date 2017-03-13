@@ -1,0 +1,294 @@
+﻿@using Swan.Models.FieldChoises
+@model Data.DataModel.Candidate
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+
+@Scripts.Render("~/Content/bootstrap-datepicker.min.js")
+
+@using (Html.BeginForm("Edit", "Candidates", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+
+
+    <div class="form-horizontal">
+      <h4>Candidate</h4>
+      <hr />
+      @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+      @Html.HiddenFor(model => model.CandidateId)
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="form-group text-center">
+                          
+              @if (Model.Photo == null)
+              {
+                <img class="img-thumbnail" width="250" height="250" id="blah" src="#" alt="photo candidate" />
+              }
+              else
+              {
+                <img class="img-thumbnail" id="blah"  width="250" height="250"
+                     src="@Url.Action("GetPhotoCandidates", "Candidates",
+                    new { Model.CandidateId })" />
+              }
+            <div class="text-center" style="position: relative;">
+              <a href='javascript:;'>
+                add avatar
+                <input type="file" id="imgInp" name="Image" size="40"
+                       style="position:absolute;z-index:2;top:0;
+                left:0;filter: alpha(opacity=0); opacity:0;
+                background-color:transparent;color:transparent;">
+              </a>              
+            </div>
+          </div>
+
+          <div class="form-group text-center">
+            @Html.LabelFor(model => model.Attachments, htmlAttributes: new { @class = "text-center lead" })
+          
+                <div style="position: relative;">
+                    @{var classBtn = "btn ";
+                    }
+                    @if (Model.Attachments != null)
+                    {
+                        classBtn += "btn-info";
+                    }
+                    <a class="@classBtn" id="btnAtt" href='javascript:;'>
+                        upload cv
+                        <input type="file" id="attInp" name="File" size="40"
+                               style="position:absolute;z-index:2;top:0;
+                left:0;filter: alpha(opacity=0); opacity:0;
+                background-color:transparent;color:transparent;">
+                    </a>
+                </div>
+            
+          </div>
+
+        </div>
+        <div class="col-sm-5">
+
+          <div class="form-group">
+            @Html.LabelFor(model => model.Name, htmlAttributes: new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+              @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+              @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.LabelFor(model => model.DateOfBirth, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+              @Html.TextBoxFor(model => model.DateOfBirth, new {@class = "form-control datepicker", placeholder = "Enter Drop-off date here..."})
+              @Html.ValidationMessageFor(model => model.DateOfBirth, "", new { @class = "text-danger" })
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.LabelFor(model => model.Gender, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+              @Html.DropDownList("Gender", CandidatesOptions.Gender(), "", new { @class = "form-control" })
+              @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.Label("English", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+              @Html.DropDownList("EnglishLevels", CandidatesOptions.EnglishLevels(), "", new { @class = "form-control" })
+              @Html.ValidationMessageFor(model => model.EnglishLevels, "", new { @class = "text-danger" })
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.LabelFor(model => model.Source, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+              @Html.EditorFor(model => model.Source, new { htmlAttributes = new { @class = "form-control" } })
+              @Html.ValidationMessageFor(model => model.Source, "", new { @class = "text-danger" })
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.LabelFor(model => model.Vacancy, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+              @Html.DropDownList("Vacancy", null, "", new { @class = "form-control" })
+              @Html.ValidationMessageFor(model => model.Vacancy, "", new { @class = "text-danger" })
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+              @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+              @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.LabelFor(model => model.Education, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+              @Html.EditorFor(model => model.Education, new { htmlAttributes = new { @class = "form-control" } })
+              @Html.ValidationMessageFor(model => model.Education, "", new { @class = "text-danger" })
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.Label("Cur.Company", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+              @Html.EditorFor(model => model.CurrentCompany, new { htmlAttributes = new { @class = "form-control" } })
+              @Html.ValidationMessageFor(model => model.CurrentCompany, "", new { @class = "text-danger" })
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.Label("Cur.Position", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+              @Html.EditorFor(model => model.CurrentPosition, new { htmlAttributes = new { @class = "form-control" } })
+              @Html.ValidationMessageFor(model => model.CurrentPosition, "", new { @class = "text-danger" })
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+              @Html.DropDownList("Status", CandidatesOptions.StatusCandidate(), "", new { @class = "form-control" })
+              @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-sm-4">
+          <div class="form-group">
+            @Html.Label("Phone", htmlAttributes: new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+              @Html.EditorFor(model => model.ContactPhone, new {htmlAttributes = new {@class = "form-control"}})
+              @Html.ValidationMessageFor(model => model.ContactPhone, "", new {@class = "text-danger"})
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.Label("Email", htmlAttributes: new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+              @Html.EditorFor(model => model.ContactEmail, new {htmlAttributes = new {@class = "form-control"}})
+              @Html.ValidationMessageFor(model => model.ContactEmail, "", new {@class = "text-danger"})
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.Label("Skype", htmlAttributes: new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+              @Html.EditorFor(model => model.ContactSkype, new {htmlAttributes = new {@class = "form-control"}})
+              @Html.ValidationMessageFor(model => model.ContactSkype, "", new {@class = "text-danger"})
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.Label("LinkedIn", htmlAttributes: new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+              @Html.EditorFor(model => model.ContactLinkedIn, new {htmlAttributes = new {@class = "form-control"}})
+              @Html.ValidationMessageFor(model => model.ContactLinkedIn, "", new {@class = "text-danger"})
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.Label("Facebook", htmlAttributes: new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+              @Html.EditorFor(model => model.ContactFacebook, new {htmlAttributes = new {@class = "form-control"}})
+              @Html.ValidationMessageFor(model => model.ContactFacebook, "", new {@class = "text-danger"})
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.Label("Google+", htmlAttributes: new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+              @Html.EditorFor(model => model.ContactGoogle, new {htmlAttributes = new {@class = "form-control"}})
+              @Html.ValidationMessageFor(model => model.ContactGoogle, "", new {@class = "text-danger"})
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.Label("Git", htmlAttributes: new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+              @Html.EditorFor(model => model.ContactGit, new {htmlAttributes = new {@class = "form-control"}})
+              @Html.ValidationMessageFor(model => model.ContactGit, "", new {@class = "text-danger"})
+            </div>
+          </div>
+
+          <div class="form-group">
+            @Html.Label("Site", htmlAttributes: new {@class = "control-label col-md-2"})
+            <div class="col-md-10">
+              @Html.EditorFor(model => model.ContactHomePage, new {htmlAttributes = new {@class = "form-control"}})
+              @Html.ValidationMessageFor(model => model.ContactHomePage, "", new {@class = "text-danger"})
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="row">
+      <div class="col-sm-2">
+        <div class="form-group">
+            <input type="submit" value="Save" class="btn btn-success" />
+        </div></div>
+      <div class="col-sm-7">
+        <div class="form-group" style=" padding-left: 57px;">
+          @Html.LabelFor(model => model.Notes, htmlAttributes: new { @class = "control-label col-md-2" })
+          <div class="col-md-10">
+            @Html.TextAreaFor(model => model.Notes, new { rows=5, cols=100, htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.Notes, "", new { @class = "text-danger" })
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+<script>
+  function readURL(input) {
+    if (input.files && input.files[0]) {
+      var reader = new FileReader();
+      reader.onload = function (e) {
+        $('#blah').attr('src', e.target.result);
+      }
+      reader.readAsDataURL(input.files[0]);
+    }
+  }
+  $("#imgInp").change(function () {
+    readURL(this);
+  });
+
+
+  $("#attInp").change(function () {
+      $('#btnAtt').addClass("btn-info");
+  });
+
+  $(function () { // will trigger when the document is ready
+    $('.datepicker').datepicker({
+      format: {
+        /*
+         * Say our UI should display a week ahead,
+         * but textbox should store the actual date.
+         * This is useful if we need UI to select local dates,
+         * but store in UTC
+         */
+        toDisplay: function (date, format, language) {
+          var d = new Date(date);
+          return d.toISOString();
+        },
+        toValue: function (date, format, language) {
+          var d = new Date(date);
+          //console.log(date);
+          return new Date(d);
+        }
+      }
+    }); //Initialise any date pickers
+  });
+</script>
