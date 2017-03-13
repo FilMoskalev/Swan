@@ -78,3 +78,4 @@ C:\Users\Philipp\Documents\GitHub\Swan\Data\obj\Debug\Data.dll
 C:\Users\Philipp\Documents\GitHub\Swan\Data\obj\Debug\Data.pdb
 C:\Users\Philipp\Documents\GitHub\Swan\Data\obj\Debug\Data.Migrations.ChangeRequirements.resources
 D:\coding\Swan\Data\obj\Debug\Data.Migrations.ChangeRequirements.resources
+D:\coding\Swan\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
