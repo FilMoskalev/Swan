@@ -79,3 +79,11 @@ C:\Users\Philipp\Documents\GitHub\Swan\Data\obj\Debug\Data.pdb
 C:\Users\Philipp\Documents\GitHub\Swan\Data\obj\Debug\Data.Migrations.ChangeRequirements.resources
 D:\coding\Swan\Data\obj\Debug\Data.Migrations.ChangeRequirements.resources
 D:\coding\Swan\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\Sharp\Swan\Data\obj\Debug\Data.Migrations.CreateUsers.resources
+D:\Sharp\Swan\Data\obj\Debug\Data.Migrations.AddTableVacancies.resources
+D:\Sharp\Swan\Data\obj\Debug\Data.Migrations.AddFieldWhoIntroduced.resources
+D:\Sharp\Swan\Data\obj\Debug\Data.Migrations.AddFieldsValidation.resources
+D:\Sharp\Swan\Data\obj\Debug\Data.Migrations.AddFieldsValidation2.resources
+D:\Sharp\Swan\Data\obj\Debug\Data.Migrations.AddFieldsValidation3.resources
+D:\Sharp\Swan\Data\obj\Debug\Data.Migrations.AddRequiredFields.resources
+D:\Sharp\Swan\Data\obj\Debug\Data.Migrations.ChangeRequirements.resources

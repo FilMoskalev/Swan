@@ -297,3 +297,5 @@ C:\Users\Philipp\Documents\GitHub\Swan\Swan\bin\Microsoft.AI.Web.xml
 C:\Users\Philipp\Documents\GitHub\Swan\Swan\obj\Debug\Swan.csprojResolveAssemblyReference.cache
 C:\Users\Philipp\Documents\GitHub\Swan\Swan\obj\Debug\Swan.dll
 C:\Users\Philipp\Documents\GitHub\Swan\Swan\obj\Debug\Swan.pdb
+D:\Sharp\Swan\Swan\bin\System.Web.Providers.dll
+D:\Sharp\Swan\Swan\bin\System.Web.Providers.xml
