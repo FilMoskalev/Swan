@@ -13,12 +13,11 @@
 
         @using (Html.BeginForm())
         {
-          @Html.ValidationSummary(true, null, new {@class = "text-danger"})
-
           <div class="box-content">
             <div class="text-center">
               <h3 class="page-header">Login Page</h3>
             </div>
+            @Html.ValidationSummary(true, null, new { @class = "text-danger" })
             <div class="form-group">
               @Html.LabelFor(model => model.UserName, new {@class = "control-label"})
 
