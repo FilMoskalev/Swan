@@ -208,10 +208,11 @@
     <Content Include="Views\Candidates\Details.cshtml" />
     <Content Include="Views\Candidates\Edit.cshtml" />
     <Content Include="Views\Candidates\Index.cshtml" />
+    <Content Include="Views\Home\Menu.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\devoops-master\**\*.*" />
-	<Content Include="Content\devoops-master\plugins\**\*.*" />
+    <Content Include="Content\devoops-master\plugins\**\*.*" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

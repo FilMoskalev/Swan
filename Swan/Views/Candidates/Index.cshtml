@@ -1,102 +1,96 @@
 ﻿@model IEnumerable<Data.DataModel.Candidate>
 
 @{
-    ViewBag.Title = "Index";
+  ViewBag.Title = "Index";
 }
-
-<h2>Index</h2>
-
 <p>
-    @Html.ActionLink("Create New", "Create")
+  @Html.ActionLink("Create New", "Create")
 </p>
-<table class="table">
-    <tr>
-      <th>
-        @Html.DisplayNameFor(model => model.Photo)
-      </th>
-      <th>
-        @Html.DisplayNameFor(model => model.Name)
-      </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Gender)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.DateOfBirth)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ContactPhone)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ContactEmail)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ContactSkype)
-        </th>
 
-        <th>
-            @Html.DisplayNameFor(model => model.EnglishLevels)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Vacancy)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CurrentCompany)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CurrentPosition)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Status)
-        </th>
-        <th></th>
-    </tr>
+<div class="row">
+  <div class="col-xs-12">
+    <div class="box">
+      <div class="box-header">
+        <div class="box-name">
+          <i class="fa fa-linux"></i>
+          <span>Candidates</span>
+        </div>
+        <div class="box-icons">
+          <a class="collapse-link">
+            <i class="fa fa-chevron-up"></i>
+          </a>
+          <a class="expand-link">
+            <i class="fa fa-expand"></i>
+          </a>
+          <a class="close-link">
+            <i class="fa fa-times"></i>
+          </a>
+        </div>
+        <div class="no-move"></div>
+      </div>
+      <div class="box-content no-padding table-responsive">
+        <table class="table table-bordered table-striped table-hover table-heading table-datatable" id="datatable-2">
+          <thead>
+            <tr>
+              <th><label><input type="text" name="search_name" value="Search Name" class="search_init" /></label></th>
+              <th><label><input type="text" name="search_name" value="Search distro" class="search_init" /></label></th>
+              <th><label><input type="text" name="search_votes" value="Search votes" class="search_init" /></label></th>
+              <th><label><input type="text" name="search_homepage" value="Search homepage" class="search_init" /></label></th>
+              <th><label><input type="text" name="search_version" value="Search versions" class="search_init"/></label></th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+          @foreach (var item in Model)
+          {
+            <tr>
+              <td>
+                <img class="img-thumbnail" width="150" height="150"
+                     src="@Url.Action("GetPhotoCandidates", "Candidates",
+                            new {item.CandidateId})"/>@Html.DisplayFor(modelItem => item.Name)
+              </td>
+              <th>
+                @Html.DisplayFor(modelItem => item.Vacancy)
+              </th>
+              <th>
+                @Html.DisplayFor(modelItem => item.CurrentCompany)
+              </th>
+              <th>
+                @Html.DisplayFor(modelItem => item.CurrentPosition)
+              </th>
+              <th>
+                @Html.DisplayFor(modelItem => item.Status)
+              </th>
+              <th>
+                @Html.ActionLink("Edit", "Edit", new { id = item.CandidateId })
+                @Html.ActionLink("Details", "Details", new { id = item.CandidateId })
+                @Html.ActionLink("Delete", "Delete", new { id = item.CandidateId })
+              </th>
+            </tr>
+          }
+          
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-          <img class="img-thumbnail" width="150" height="150"
-               src="@Url.Action("GetPhotoCandidates", "Candidates",
-                        new { item.CandidateId })" />
-        </td>
-      <td>
-        @Html.DisplayFor(modelItem => item.Name)
-      </td>
-      <td>
-        @Html.DisplayFor(modelItem => item.Gender)
-      </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.DateOfBirth)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ContactPhone)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ContactEmail)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ContactSkype)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.EnglishLevels)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Vacancy)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CurrentCompany)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CurrentPosition)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Status)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.CandidateId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.CandidateId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.CandidateId })
-        </td>
-    </tr>
+<script type="text/javascript">
+// Run Datables plugin and create 3 variants of settings
+function AllTables(){
+	TestTable2();
+	LoadSelect2Script(MakeSelect2);
 }
-
-</table>
+function MakeSelect2(){
+	$('select').select2();
+	$('.dataTables_filter').each(function(){
+		$(this).find('label input[type=text]').attr('placeholder', 'Search');
+	});
+}
+$(document).ready(function() {
+	// Load Datatables and run plugin on tables
+	LoadDataTablesScripts(AllTables);
+	// Add Drag-n-Drop feature
+	WinMove();
+});
+</script>

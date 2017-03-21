@@ -3355,10 +3355,10 @@ $(document).ready(function () {
 		setTimeout(MessagesMenuWidth, 250);
 	});
 	var ajax_url = location.hash.replace(/^#/, '');
-	if (ajax_url.length < 1) {
+	/*if (ajax_url.length < 1) {
 		ajax_url = '/Content/devoops-master/ajax/dashboard.html';
-	}
-	LoadAjaxContent(ajax_url);
+	}*/
+	//LoadAjaxContent(ajax_url);
 	var item = $('.main-menu li a[href$="' + ajax_url + '"]');
 	item.addClass('active-parent active');
 	$('.dropdown:has(li:has(a.active)) > a').addClass('active-parent active');
@@ -3374,7 +3374,7 @@ $(document).ready(function () {
 			var current = $(this).next();
 			if (current.is(':visible')) {
 				li.find("ul.dropdown-menu").slideUp('fast');
-				li.find("ul.dropdown-menu a").removeClass('active')
+				li.find("ul.dropdown-menu a").removeClass('active');
 			}
 			else {
 				another_items.find("ul.dropdown-menu").slideUp('fast');
