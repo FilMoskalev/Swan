@@ -7,7 +7,7 @@
   @Styles.Render("~/Content/devoops-master/plugins/bootstrap/bootstrap.css")
   @Styles.Render("~/Content/devoops-master/plugins/jquery-ui/jquery-ui.min.css")
   @Styles.Render("~/Content/devoops-master/css/font-awesome.min.css")
-
+  @Styles.Render("~/Content/bootstrapdatepicker.css")
   @Styles.Render("~/Content/devoops-master/plugins/fancybox/jquery.fancybox.css")
   @Styles.Render("~/Content/devoops-master/plugins/fullcalendar/fullcalendar.css")
   @Styles.Render("~/Content/devoops-master/plugins/xcharts/xcharts.min.css")
@@ -15,7 +15,8 @@
   @Styles.Render("~/Content/devoops-master/plugins/justified-gallery/justifiedGallery.css")
   @Styles.Render("~/Content/devoops-master/css/style_v2.css")
   @Styles.Render("~/Content/devoops-master/plugins/chartist/chartist.min.css")
-  @RenderSection("scripts", required: false)
+  
+
   <script src="/Content/devoops-master/plugins/jquery/jquery.min.js"></script>
   <script src="/Content/devoops-master/plugins/jquery-ui/jquery-ui.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -25,6 +26,7 @@
   <script src="/Content/devoops-master/plugins/tinymce/jquery.tinymce.min.js"></script>
   <!-- All functions for this theme + document.ready processing -->
   <script src="/Content/devoops-master/js/devoops.js"></script>
+  @RenderSection("scripts", required: false)
 </head>
 <body>
 <!--Start Header-->

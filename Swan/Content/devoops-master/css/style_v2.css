@@ -3,6 +3,14 @@ body {
   color:#525252;
   background:#353535;
 }
+
+.ui-datepicker-month {
+    color: black
+}
+.ui-datepicker-year {
+    color: black
+}
+
 .body-expanded, .modal-open {
   overflow-y:hidden;
   margin-right: 15px;

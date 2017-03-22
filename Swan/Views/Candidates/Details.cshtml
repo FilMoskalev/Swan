@@ -7,181 +7,189 @@
 <h2> Candidate Details</h2>
 
 <div>
-    <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Photo)
-        </dt>
+  <hr/>
+  <dl class="dl-horizontal">
+    <dt>
+      @Html.DisplayNameFor(model => model.Photo)
+    </dt>
 
-        <dd>
-          <img class="img-thumbnail" width="150" height="150"
-               src="@Url.Action("GetPhotoCandidates", "Candidates",
-                            new {Model.CandidateId})" />
-        </dd>
+    <dd>
+      <img class="img-thumbnail" width="150" height="150"
+           src="@Url.Action("GetPhotoCandidates", "Candidates",
+                  new {Model.CandidateId})"/>
+    </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Gender)
-        </dt>
+    <dt>
+      @Html.DisplayNameFor(model => model.Name)
+    </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Gender)
-        </dd>
+    <dd>
+      @Html.DisplayFor(model => model.Name)
+    </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.DateOfBirth)
-        </dt>
+    <dt>
+      @Html.DisplayNameFor(model => model.Gender)
+    </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.DateOfBirth)
-        </dd>
+    <dd>
+      @Html.DisplayFor(model => model.Gender)
+    </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.ContactPhone)
-        </dt>
+    <dt>
+      @Html.DisplayNameFor(model => model.DateOfBirth)
+    </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.ContactPhone)
-        </dd>
+    <dd>
+      @Html.DisplayFor(model => model.DateOfBirth)
+    </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.ContactEmail)
-        </dt>
+    <dt>
+      @Html.DisplayNameFor(model => model.ContactPhone)
+    </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.ContactEmail)
-        </dd>
+    <dd>
+      @Html.DisplayFor(model => model.ContactPhone)
+    </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.ContactSkype)
-        </dt>
+    <dt>
+      @Html.DisplayNameFor(model => model.ContactEmail)
+    </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.ContactSkype)
-        </dd>
+    <dd>
+      @Html.DisplayFor(model => model.ContactEmail)
+    </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.ContactLinkedIn)
-        </dt>
+    <dt>
+      @Html.DisplayNameFor(model => model.ContactSkype)
+    </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.ContactLinkedIn)
-        </dd>
+    <dd>
+      @Html.DisplayFor(model => model.ContactSkype)
+    </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.ContactFacebook)
-        </dt>
+    <dt>
+      @Html.DisplayNameFor(model => model.ContactLinkedIn)
+    </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.ContactFacebook)
-        </dd>
+    <dd>
+      @Html.DisplayFor(model => model.ContactLinkedIn)
+    </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.ContactGoogle)
-        </dt>
+    <dt>
+      @Html.DisplayNameFor(model => model.ContactFacebook)
+    </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.ContactGoogle)
-        </dd>
+    <dd>
+      @Html.DisplayFor(model => model.ContactFacebook)
+    </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.ContactGit)
-        </dt>
+    <dt>
+      @Html.DisplayNameFor(model => model.ContactGoogle)
+    </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.ContactGit)
-        </dd>
+    <dd>
+      @Html.DisplayFor(model => model.ContactGoogle)
+    </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.ContactHomePage)
-        </dt>
+    <dt>
+      @Html.DisplayNameFor(model => model.ContactGit)
+    </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.ContactHomePage)
-        </dd>
+    <dd>
+      @Html.DisplayFor(model => model.ContactGit)
+    </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.EnglishLevels)
-        </dt>
+    <dt>
+      @Html.DisplayNameFor(model => model.ContactHomePage)
+    </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.EnglishLevels)
-        </dd>
+    <dd>
+      @Html.DisplayFor(model => model.ContactHomePage)
+    </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Source)
-        </dt>
+    <dt>
+      @Html.DisplayNameFor(model => model.EnglishLevels)
+    </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Source)
-        </dd>
+    <dd>
+      @Html.DisplayFor(model => model.EnglishLevels)
+    </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Vacancy)
-        </dt>
+    <dt>
+      @Html.DisplayNameFor(model => model.Source)
+    </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Vacancy)
-        </dd>
+    <dd>
+      @Html.DisplayFor(model => model.Source)
+    </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Attachments)
-        </dt>
+    <dt>
+      @Html.DisplayNameFor(model => model.Vacancy)
+    </dt>
 
-        <dd>
-            
-        </dd>
+    <dd>
+      @Html.DisplayFor(model => model.Vacancy)
+    </dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Description)
-        </dt>
+    <dt>
+      @Html.DisplayNameFor(model => model.Attachments)
+    </dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Description)
-        </dd>
+    <dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Notes)
-        </dt>
+    </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Notes)
-        </dd>
+    <dt>
+      @Html.DisplayNameFor(model => model.Description)
+    </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Education)
-        </dt>
+    <dd>
+      @Html.DisplayFor(model => model.Description)
+    </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Education)
-        </dd>
+    <dt>
+      @Html.DisplayNameFor(model => model.Notes)
+    </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.CurrentCompany)
-        </dt>
+    <dd>
+      @Html.DisplayFor(model => model.Notes)
+    </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.CurrentCompany)
-        </dd>
+    <dt>
+      @Html.DisplayNameFor(model => model.Education)
+    </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.CurrentPosition)
-        </dt>
+    <dd>
+      @Html.DisplayFor(model => model.Education)
+    </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.CurrentPosition)
-        </dd>
+    <dt>
+      @Html.DisplayNameFor(model => model.CurrentCompany)
+    </dt>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Status)
-        </dt>
+    <dd>
+      @Html.DisplayFor(model => model.CurrentCompany)
+    </dd>
 
-        <dd>
-            @Html.DisplayFor(model => model.Status)
-        </dd>
+    <dt>
+      @Html.DisplayNameFor(model => model.CurrentPosition)
+    </dt>
 
-    </dl>
+    <dd>
+      @Html.DisplayFor(model => model.CurrentPosition)
+    </dd>
+
+    <dt>
+      @Html.DisplayNameFor(model => model.Status)
+    </dt>
+
+    <dd>
+      @Html.DisplayFor(model => model.Status)
+    </dd>
+
+  </dl>
 </div>
 <p>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.CandidateId }) |
-    @Html.ActionLink("Back to List", "Index")
+  @Html.ActionLink("Edit", "Edit", new {id = Model.CandidateId}) |
+  @Html.ActionLink("Back to List", "Index")
 </p>

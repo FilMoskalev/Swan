@@ -32,11 +32,11 @@
         <table class="table table-bordered table-striped table-hover table-heading table-datatable" id="datatable-2">
           <thead>
             <tr>
-              <th><label><input type="text" name="search_name" value="Search Name" class="search_init" /></label></th>
-              <th><label><input type="text" name="search_name" value="Search distro" class="search_init" /></label></th>
-              <th><label><input type="text" name="search_votes" value="Search votes" class="search_init" /></label></th>
-              <th><label><input type="text" name="search_homepage" value="Search homepage" class="search_init" /></label></th>
-              <th><label><input type="text" name="search_version" value="Search versions" class="search_init"/></label></th>
+              <th><label><input type="text" name="search_name" value="Name" class="search_init" /></label></th>
+              <th><label><input type="text" name="search_name" value="Phone number" class="search_init" /></label></th>
+              <th><label><input type="text" name="search_votes" value="Company" class="search_init" /></label></th>
+              <th><label><input type="text" name="search_homepage" value="Position" class="search_init" /></label></th>
+              <th><label><input type="text" name="search_version" value="English" class="search_init"/></label></th>
               <th>Actions</th>
             </tr>
           </thead>
@@ -45,12 +45,14 @@
           {
             <tr>
               <td>
-                <img class="img-thumbnail" width="150" height="150"
-                     src="@Url.Action("GetPhotoCandidates", "Candidates",
-                            new {item.CandidateId})"/>@Html.DisplayFor(modelItem => item.Name)
+                <a href="/Candidates/Details/@item.CandidateId">
+                  <img class="img-thumbnail" width="150" height="150"
+                       src="@Url.Action("GetPhotoCandidates", "Candidates",
+                            new {item.CandidateId})" />@Html.DisplayFor(modelItem => item.Name)
+                          </a>
               </td>
               <th>
-                @Html.DisplayFor(modelItem => item.Vacancy)
+                @Html.DisplayFor(modelItem => item.ContactPhone)
               </th>
               <th>
                 @Html.DisplayFor(modelItem => item.CurrentCompany)
@@ -59,11 +61,10 @@
                 @Html.DisplayFor(modelItem => item.CurrentPosition)
               </th>
               <th>
-                @Html.DisplayFor(modelItem => item.Status)
+                @Html.DisplayFor(modelItem => item.EnglishLevels)
               </th>
               <th>
                 @Html.ActionLink("Edit", "Edit", new { id = item.CandidateId })
-                @Html.ActionLink("Details", "Details", new { id = item.CandidateId })
                 @Html.ActionLink("Delete", "Delete", new { id = item.CandidateId })
               </th>
             </tr>
