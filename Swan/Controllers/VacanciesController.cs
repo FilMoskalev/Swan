@@ -6,6 +6,7 @@ using Data.DataModel;
 
 namespace Swan.Controllers
 {
+  [Authorize]
     public class VacanciesController : Controller
     {
         private SwanDbEntities db = new SwanDbEntities();
