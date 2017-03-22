@@ -153,6 +153,7 @@
     <Compile Include="Controllers\AccountCotroller.cs" />
     <Compile Include="Controllers\CandidatesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\VacanciesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -210,6 +211,11 @@
     <Content Include="Views\Candidates\Index.cshtml" />
     <Content Include="Views\Home\Menu.cshtml" />
     <None Include="Views\Account\ShowAllUsers.cshtml" />
+    <Content Include="Views\Vacancies\Create.cshtml" />
+    <Content Include="Views\Vacancies\Delete.cshtml" />
+    <Content Include="Views\Vacancies\Details.cshtml" />
+    <Content Include="Views\Vacancies\Edit.cshtml" />
+    <Content Include="Views\Vacancies\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\devoops-master\**\*.*" />

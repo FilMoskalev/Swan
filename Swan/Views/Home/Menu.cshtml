@@ -42,7 +42,25 @@
           </ul>
         </li>
 
-        @{ string activeUsers = "";}
+        @{ string activeVacancies = "";}
+        @if (ViewBag.SelectedCategory == "Vacancies")
+        {
+          activeVacancies = "active-parent active";
+        }
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle @activeVacancies">
+          <i class="fa fa-list-ul "></i>
+          <span class="hidden-xs">Vacancies</span>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="" href="/Vacancies/Create/">Create Vacancies</a></li>
+          <li><a class="" href="/Vacancies/">Show all Vacancies</a></li>
+        </ul>
+      </li>
+
+
+
+      @{ string activeUsers = "";}
         @if (ViewBag.SelectedCategory == "Account")
         {
           activeUsers = "active-parent active";

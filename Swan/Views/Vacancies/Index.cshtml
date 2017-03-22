@@ -1,0 +1,172 @@
+﻿@model IEnumerable<Data.DataModel.Vacancies>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Position)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NumberOfPersons)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Team)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Head)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TypeOfPayment)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Amount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CurrencyType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PaymentComments)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmploymentType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CauseOfOccurrence)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Duties)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GoalsAndObjectives)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gender)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.YearsOld)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FamilyStatus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Location)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Education)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.WorkExperience)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ProfessionalKnowledge)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PersonalQualities)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AdditionalRequirements)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TechnicalInterviewsAreConducted)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TheFinalDecision)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExpectedDateOfEmployment)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Position)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NumberOfPersons)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Team)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Head)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TypeOfPayment)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Amount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CurrencyType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PaymentComments)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmploymentType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CauseOfOccurrence)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Duties)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GoalsAndObjectives)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Gender)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.YearsOld)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FamilyStatus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Location)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Education)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.WorkExperience)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProfessionalKnowledge)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PersonalQualities)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AdditionalRequirements)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TechnicalInterviewsAreConducted)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TheFinalDecision)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ExpectedDateOfEmployment)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

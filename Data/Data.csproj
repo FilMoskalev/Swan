@@ -104,6 +104,10 @@
     <Compile Include="Migrations\201703131740066_ChangeRequirements.Designer.cs">
       <DependentUpon>201703131740066_ChangeRequirements.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703221434089_extendedVacancies.cs" />
+    <Compile Include="Migrations\201703221434089_extendedVacancies.Designer.cs">
+      <DependentUpon>201703221434089_extendedVacancies.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -147,6 +151,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201703131740066_ChangeRequirements.resx">
       <DependentUpon>201703131740066_ChangeRequirements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703221434089_extendedVacancies.resx">
+      <DependentUpon>201703221434089_extendedVacancies.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
