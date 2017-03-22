@@ -209,6 +209,7 @@
     <Content Include="Views\Candidates\Edit.cshtml" />
     <Content Include="Views\Candidates\Index.cshtml" />
     <Content Include="Views\Home\Menu.cshtml" />
+    <None Include="Views\Account\ShowAllUsers.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\devoops-master\**\*.*" />

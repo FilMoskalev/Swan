@@ -22,7 +22,17 @@ namespace Swan.Models.FieldChoises
     {
       var list = new List<string>
       {
-        "Elementary","Pre-Intermediate","Intermediate","Upper intermediate","Advanced","Proficient","Native"
+        "Unknown", "Elementary","Pre-Intermediate","Intermediate","Upper intermediate","Advanced","Proficient","Native"
+      };
+      return list.Select(cases => new SelectListItem { Value = cases, Text = cases }).ToList();
+    }
+
+    public static List<SelectListItem> SourceChoises()
+    {
+      var list = new List<string>
+      {
+        "Work ua", "Rabota ua","HH ua","HR chat","Referral","Social networks","Professional networks","Skype chat",
+        "Sales school", "Sales event","career karazin","rabota.kharkov.ua","Lardi-Tranc"
       };
       return list.Select(cases => new SelectListItem { Value = cases, Text = cases }).ToList();
     }

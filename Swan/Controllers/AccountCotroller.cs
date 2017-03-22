@@ -1,8 +1,7 @@
-﻿using System;
-using System.Web;
+﻿using System.Linq;
 using System.Web.Mvc;
-using Data.DataModel;
 using System.Web.Security;
+using Data.DataModel;
 using Swan.Models;
 using Swan.Providers;
 
@@ -12,6 +11,8 @@ namespace Swan.Controllers
     [AllowAnonymous]
     public class AccountController : Controller
     {
+      private SwanDbEntities _db = new SwanDbEntities();
+
         public ActionResult Login()
         {
             return View(new LogOnModel());          
@@ -44,7 +45,6 @@ namespace Swan.Controllers
         public ActionResult LogOff()
         {
             FormsAuthentication.SignOut();
-
             return RedirectToAction("Login", "Account");
         }
 
@@ -73,6 +73,21 @@ namespace Swan.Controllers
                 }
             }
             return View(model);
+        }
+
+        [Authorize(Roles = "admin")]
+        public ActionResult ShowAllUsers()
+        {
+          return View(_db.Users.Where(c=>true));
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+          if (disposing)
+          {
+            _db.Dispose();
+          }
+          base.Dispose(disposing);
         }
     }
 }

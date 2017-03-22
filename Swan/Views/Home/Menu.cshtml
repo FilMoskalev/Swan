@@ -27,21 +27,36 @@
         }
 
         @{ string activeCandidates = "";}
-        @if (ViewBag.SelectedCategory == "AutotestsUsers" || ViewBag.SelectedCategory == "AutotestsUsersProfiles")
+        @if (ViewBag.SelectedCategory == "Candidates")
         {
-          activeCandidates = "active";
+          activeCandidates = "active-parent active";
         }
       <li class="dropdown">
-          <a href="#" class="dropdown-toggle">
-            <i class="fa fa-users @activeCandidates"></i>
-            <span class="hidden-xs">Candidates</span>
-          </a>
+        <a href="#" class="dropdown-toggle @activeCandidates">
+          <i class="fa fa-users"></i>
+          <span class="hidden-xs">Candidates</span>
+        </a>
           <ul class="dropdown-menu">
+            <li><a class="" href="/Candidates/Create/">Create New</a></li>
             <li><a class="" href="/Candidates/">Show All</a></li>
           </ul>
         </li>
 
-
+        @{ string activeUsers = "";}
+        @if (ViewBag.SelectedCategory == "Account")
+        {
+          activeUsers = "active-parent active";
+        }
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle @activeUsers">
+            <i class="fa fa-user "></i>
+            <span class="hidden-xs">Users</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="" href="/Account/Register/">Register new</a></li>
+            <li><a class="" href="/Account/ShowAllUsers/">Show all users</a></li>
+          </ul>
+        </li>
         
         <li class="dropdown">
           <a href="#" class="dropdown-toggle">
