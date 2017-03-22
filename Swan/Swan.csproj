@@ -210,6 +210,8 @@
     <Content Include="Views\Candidates\Edit.cshtml" />
     <Content Include="Views\Candidates\Index.cshtml" />
     <Content Include="Views\Home\Menu.cshtml" />
+    <None Include="Views\Account\Delete.cshtml" />
+    <None Include="Views\Account\Edit.cshtml" />
     <None Include="Views\Account\ShowAllUsers.cshtml" />
     <Content Include="Views\Vacancies\Create.cshtml" />
     <Content Include="Views\Vacancies\Delete.cshtml" />

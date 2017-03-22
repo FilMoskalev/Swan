@@ -1,4 +1,4 @@
-﻿@model System.Linq.IQueryable<Data.DataModel.User>
+﻿@model List<Data.DataModel.User>
 
 @{
   ViewBag.Title = "title";
@@ -49,17 +49,15 @@
                   }
                   else
                   {
-                    <th>worker</th>
+                    <th>working</th>
                   }
                 
                 <th>
                   @Html.DisplayFor(modelItem => item.CreationDate)
                 </th>
-                <th>
-                  <!--
+                <th>                  
                   @Html.ActionLink("Edit", "Edit", new {id = item.Id})
                   @Html.ActionLink("Delete", "Delete", new {id = item.Id})
-                    -->
                 </th>
               </tr>
             }
