@@ -80,7 +80,8 @@ namespace Swan.Controllers
         [Authorize(Roles = "admin")]
         public ActionResult ShowAllUsers()
         {
-          return View(_db.Users.ToList());
+          var users = new SwanDbEntities().Users.ToList();
+          return View(users);
         }
 
 

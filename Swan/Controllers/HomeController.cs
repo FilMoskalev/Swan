@@ -15,9 +15,7 @@ namespace Swan.Controllers
     public ActionResult About()
     {
       ViewBag.Message = "Your application description page.";
-      var users = new SwanDbEntities().Users.ToList();
-
-      return View(users);
+      return View();
     }
 
     public ActionResult Contact()
