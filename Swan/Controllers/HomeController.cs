@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
+using Data.DataModel;
 
 namespace Swan.Controllers
 {
@@ -14,6 +15,7 @@ namespace Swan.Controllers
     public ActionResult About()
     {
       ViewBag.Message = "Your application description page.";
+      var users = new SwanDbEntities().Users.ToList();
 
       return View();
     }
