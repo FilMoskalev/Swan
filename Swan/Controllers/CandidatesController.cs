@@ -4,7 +4,6 @@ using System.Net;
 using System.Web;
 using System.Web.Mvc;
 using Data.DataModel;
-using System.Collections.Generic;
 
 namespace Swan.Controllers
 {

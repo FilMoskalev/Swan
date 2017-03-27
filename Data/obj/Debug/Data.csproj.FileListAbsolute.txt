@@ -88,4 +88,3 @@ D:\Sharp\Swan\Data\obj\Debug\Data.Migrations.AddFieldsValidation3.resources
 D:\Sharp\Swan\Data\obj\Debug\Data.Migrations.AddRequiredFields.resources
 D:\Sharp\Swan\Data\obj\Debug\Data.Migrations.ChangeRequirements.resources
 D:\Sharp\Swan\Data\obj\Debug\Data.Migrations.extendedVacancies.resources
-D:\Sharp\Swan\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache

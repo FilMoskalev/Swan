@@ -30,20 +30,20 @@
           <thead>
             <tr>
               <th><label><input type="text" name="search_name" value="Search Name" class="search_init" /></label></th>
-              <th><label><input type="text" name="search_role" value="Search Role" class="search_init" /></label></th>
-              <th><label><input type="text" name="search_creationdate" value="Search Creation Date" class="search_init" /></label></th>
-              <th>Actions</th>
+              <!-->th><label><input type="text" name="search_role" value="Search Role" class="search_init" /></label></th>
+              <th><label><input type="text" name="search_creationdate" value="Search Creation Date" class="search_init" /></label></th-->
+              <!-->th>Actions</th-->
             </tr>
           </thead>
           <tbody>
-            <!---->
+            
             @foreach (var item in Model)
             {
               <tr>
                 <th>
                   @Html.DisplayFor(modelItem => item.Email)
                 </th>
-                
+                <!--
                   @if (item.RoleId == 1)
                   {
                     <th>admin</th>
@@ -52,14 +52,15 @@
                   {
                     <th>working</th>
                   }
-                
+
                 <th>
                   @Html.DisplayFor(modelItem => item.CreationDate)
                 </th>
-                <th>                  
+                <th>
                   @Html.ActionLink("Edit", "Edit", new {id = item.Id})
                   @Html.ActionLink("Delete", "Delete", new {id = item.Id})
                 </th>
+                  -->
               </tr>
             }
 
