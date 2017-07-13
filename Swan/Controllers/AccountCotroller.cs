@@ -65,8 +65,8 @@ namespace Swan.Controllers
 
         if (membershipUser != null)
         {
-          FormsAuthentication.SetAuthCookie(model.Email, false);
-          return RedirectToAction("Index", "Home");
+          //FormsAuthentication.SetAuthCookie(model.Email, false);
+          return RedirectToAction("ShowAllUsers", "Account");
         }
         else
         {
@@ -110,6 +110,7 @@ namespace Swan.Controllers
       if (ModelState.IsValid)
       {
         db.Entry(user).State = EntityState.Modified;
+
         db.SaveChanges();
         return RedirectToAction("ShowAllUsers", "Account");
       }

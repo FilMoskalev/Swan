@@ -5,165 +5,93 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Vacancies</h2>
+<hr />
+<div class="row">
+  <div class="col-xs-12">
+    <div class="box">
+      <div class="box-header">
+        <div class="box-name">
+          <i class="fa fa-users"></i>
+          <span>Candidates</span>
+        </div>
+        <div class="box-icons">
+          <a class="collapse-link">
+            <i class="fa fa-chevron-up"></i>
+          </a>
+          <a class="expand-link">
+            <i class="fa fa-expand"></i>
+          </a>
+          <a class="close-link">
+            <i class="fa fa-times"></i>
+          </a>
+        </div>
+        <div class="no-move"></div>
+      </div>
+      <div class="box-content no-padding table-responsive">
+        <table class="table table-bordered table-striped table-hover table-heading table-datatable" id="datatable-2">
+          <thead>
+          <tr>
+            <th><label><input type="text" name="search_name" value="Position" class="search_init" /></label></th>
+            <th><label><input type="text" name="search_name" value="NumberOfPersons" class="search_init" /></label></th>
+            <th><label><input type="text" name="search_votes" value="Team" class="search_init" /></label></th>
+            <th><label><input type="text" name="search_homepage" value="Head" class="search_init" /></label></th>
+            <th><label><input type="text" name="search_version" value="TypeOfPayment" class="search_init" /></label></th>
+            <th>Actions</th>
+          </tr>
+          </thead>
+          <tbody>
+          @foreach (var item in Model)
+          {
+            <tr>
 
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Position)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.NumberOfPersons)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Team)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Head)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.TypeOfPayment)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Amount)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CurrencyType)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.PaymentComments)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.EmploymentType)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.CauseOfOccurrence)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Duties)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.GoalsAndObjectives)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Gender)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.YearsOld)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.FamilyStatus)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Location)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Education)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.WorkExperience)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ProfessionalKnowledge)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.PersonalQualities)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.AdditionalRequirements)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.TechnicalInterviewsAreConducted)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.TheFinalDecision)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ExpectedDateOfEmployment)
-        </th>
-        <th></th>
-    </tr>
+              <th>
+                @Html.DisplayFor(modelItem => item.Position)
+              </th>
+              <th>
+                @Html.DisplayFor(modelItem => item.NumberOfPersons)
+              </th>
+              <th>
+                @Html.DisplayFor(modelItem => item.Team)
+              </th>
+              <th>
+                @Html.DisplayFor(modelItem => item.Head)
+              </th>
+              <th>
+                @Html.DisplayFor(modelItem => item.TypeOfPayment)
+              </th>
+              <th>
+                @Html.ActionLink("Edit", "Edit", new {id = item.Id})
+                @Html.ActionLink("Delete", "Delete", new {id = item.Id})
+              </th>
+            </tr>
+          }
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Position)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.NumberOfPersons)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Team)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Head)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.TypeOfPayment)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Amount)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CurrencyType)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.PaymentComments)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.EmploymentType)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.CauseOfOccurrence)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Duties)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.GoalsAndObjectives)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Gender)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.YearsOld)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.FamilyStatus)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Location)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Education)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.WorkExperience)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ProfessionalKnowledge)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.PersonalQualities)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.AdditionalRequirements)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.TechnicalInterviewsAreConducted)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.TheFinalDecision)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ExpectedDateOfEmployment)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
-        </td>
-    </tr>
-}
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
 
-</table>
+<script type="text/javascript">
+// Run Datables plugin and create 3 variants of settings
+  function AllTables() {
+    TestTable2();
+    LoadSelect2Script(MakeSelect2);
+  }
+
+  function MakeSelect2() {
+    $('select').select2();
+    $('.dataTables_filter').each(function() {
+      $(this).find('label input[type=text]').attr('placeholder', 'Search');
+    });
+  }
+
+  $(document).ready(function() {
+    // Load Datatables and run plugin on tables
+    LoadDataTablesScripts(AllTables);
+    // Add Drag-n-Drop feature
+    WinMove();
+  });
+</script>
+
+
