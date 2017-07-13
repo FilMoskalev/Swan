@@ -10,7 +10,6 @@ using Swan.Providers;
 
 namespace Swan.Controllers
 {
-  [AllowAnonymous]
   public class AccountController : Controller
   {
     public ActionResult Login()

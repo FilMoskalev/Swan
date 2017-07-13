@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Web.Mvc;
-using Data.DataModel;
+﻿using System.Web.Mvc;
 
 namespace Swan.Controllers
 {
@@ -27,21 +24,8 @@ namespace Swan.Controllers
 
     public PartialViewResult Navigation(string category = null)
     {
-      var categories = new Dictionary<string, Dictionary<string, string>>();
-      // key = url , value = text
-
-      /*categories["Messages"] = new Dictionary<string, string>
-        {
-          {"MessagesLPs", "LandingPages"},
-          {"MessagesPPs", "Portals"},
-          {"SeoMetas", "SeoMetas"},
-        };*/
-      var selectedCategory = categories
-          .Where(x => x.Value.Keys.Contains(category))
-          .Select(x => x.Key).ToList().FirstOrDefault();
-
-      ViewBag.SelectedCategory = string.IsNullOrEmpty(selectedCategory) ? category : selectedCategory;
-      return PartialView("Menu", categories);
+      ViewBag.SelectedCategory = category;
+      return PartialView("Menu");
     }
   }
 }
